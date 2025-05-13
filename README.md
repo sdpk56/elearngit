@@ -55,7 +55,7 @@ To check config:
 
 git config --list
 
-🧪 Basic Git Commands
+## 🧪 Basic Git Commands
 
 | Task            | Command                         |
 | --------------- | ------------------------------- |
@@ -67,7 +67,7 @@ git config --list
 | View history    | `git log`                       |
 | See changes     | `git diff`                      |
 
-🌿 Git Branching
+## 🌿 Git Branching
 
 git branch                   # List branches
 git branch <branch-name>     # Create branch
@@ -76,7 +76,7 @@ git checkout -b <branch>     # Create and switch
 git merge <branch>           # Merge into current
 git branch -d <branch>       # Delete branch
 
-🌍 Remote Repositories
+## 🌍 Remote Repositories
 
 git remote add origin <url>        # Link to remote
 git push -u origin main            # Push to GitHub
@@ -84,7 +84,7 @@ git pull origin main               # Pull from GitHub
 git fetch                          # Fetch changes
 git remote -v                      # Show remotes
 
-🤝 GitHub Collaboration Workflow
+## 🤝 GitHub Collaboration Workflow
 
 Fork → Make a copy of a repository.
 Clone → Get it locally with git clone.
@@ -95,7 +95,7 @@ Push changes → git push origin feature-x
 Create a Pull Request on GitHub.
 Review & Merge.
 
-🌟 GitHub Features
+## 🌟 GitHub Features
 
 Issues: Bug tracking and feature requests.
 Pull Requests: Propose, review, and merge code.
@@ -104,7 +104,7 @@ Projects: Kanban-style project management.
 Wiki: Documentation inside the repo.
 Insights: Contribution graphs and statistics.
 
-✅ Best Practices
+## ✅ Best Practices
 
 Use meaningful commit messages.
 Make frequent, smaller commits.
@@ -113,7 +113,7 @@ Always pull before you push.
 Use branches for features/fixes.
 Keep main/master branch clean and deployable.
 
-🧯 Common Issues & Fixes
+## 🧯 Common Issues & Fixes
 
 | Problem            | Solution                                         |
 | ------------------ | ------------------------------------------------ |
@@ -123,11 +123,9 @@ Keep main/master branch clean and deployable.
 | Discard changes    | `git checkout -- <file>` or `git restore <file>` |
 
 
-📚 Resources
+## 📚 Resources
+
 Official Git Documentation - https://git-scm.com/doc
-
 GitHub Docs - https://docs.github.com/
-
 Git Cheat Sheet - https://education.github.com/git-cheat-sheet-education.pdf
-
 Learn Git Branching - https://learngitbranching.js.org/
